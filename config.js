@@ -239,7 +239,8 @@
         //   url: '//gis.phila.gov/arcgis/rest/services/Water/pv_data_geodb2/MapServer/0',
         // },
         marathon: {
-          url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/FullMarathon/FeatureServer/0?token=HOaC_fsUlVshNPgXG9lLCtHmWdtQX1Tx88DqmlDKMEhXQ2oOEUQCbQoucKlwVPgbNd3fox8pcinM4Jh-yQf1WDmbX1c0lGq_tvdMlLEJk_0uZxKI379EcDUACXPDB9Hql0uS5zMMCTHfGc0r1VNYewSpp3t6JovR6sy7X7vVu23WQqi2fEeZExFZ2-CnpdI2gHZSL9dROuedqjw8tstZGaKPTqNh82ycSDxsl3qU_6-MaljV6sYWsg4wIMOsT31V',
+          // url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/FullMarathon/FeatureServer/0?token=HOaC_fsUlVshNPgXG9lLCtHmWdtQX1Tx88DqmlDKMEhXQ2oOEUQCbQoucKlwVPgbNd3fox8pcinM4Jh-yQf1WDmbX1c0lGq_tvdMlLEJk_0uZxKI379EcDUACXPDB9Hql0uS5zMMCTHfGc0r1VNYewSpp3t6JovR6sy7X7vVu23WQqi2fEeZExFZ2-CnpdI2gHZSL9dROuedqjw8tstZGaKPTqNh82ycSDxsl3qU_6-MaljV6sYWsg4wIMOsT31V',
+          url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/FullMarathon/FeatureServer/0',
           color: 'orange',
           fillColor: 'orange',
           fillOpacity: 0.5,

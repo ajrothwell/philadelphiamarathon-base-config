@@ -238,15 +238,14 @@
         // pwdParcels: {
         //   url: '//gis.phila.gov/arcgis/rest/services/Water/pv_data_geodb2/MapServer/0',
         // },
-        marathon: {
-          // url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/FullMarathon/FeatureServer/0?token=HOaC_fsUlVshNPgXG9lLCtHmWdtQX1Tx88DqmlDKMEhXQ2oOEUQCbQoucKlwVPgbNd3fox8pcinM4Jh-yQf1WDmbX1c0lGq_tvdMlLEJk_0uZxKI379EcDUACXPDB9Hql0uS5zMMCTHfGc0r1VNYewSpp3t6JovR6sy7X7vVu23WQqi2fEeZExFZ2-CnpdI2gHZSL9dROuedqjw8tstZGaKPTqNh82ycSDxsl3qU_6-MaljV6sYWsg4wIMOsT31V',
-          url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/FullMarathon/FeatureServer/0',
-          color: 'orange',
-          fillColor: 'orange',
-          fillOpacity: 0.5,
-          weight: 1,
-          minZoom: 16
-        },
+        // marathon: {
+        //   url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/FullMarathon/FeatureServer/0',
+        //   color: 'orange',
+        //   fillColor: 'orange',
+        //   fillOpacity: 0.5,
+        //   weight: 1,
+        //   minZoom: 16
+        // },
         // vacantBuilding: {
         //   url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Vacant_Indicators_Bldg/FeatureServer/0',
         //   color: 'purple',
@@ -270,7 +269,8 @@
       username: 'PhillyMarathon',
       // there's no way to initialize the streetsmart api without sending this to the client, so it has to be in here.
       password: 'run26.2',
-      apiKey: 'GfElS3oRuroNivgtibsZqDkpCvItyPUNuv0NmXglen8puXoJanEVarsZyns9ynkJ',
+      apiKey: 'SzAVCX4Baj0ZiHwRGDMxWrQ1GTAtGbMFu3UF-jEZST4BKjg5G_EB-Xo9WH0liHAt ',
+      // apiKey: 'GfElS3oRuroNivgtibsZqDkpCvItyPUNuv0NmXglen8puXoJanEVarsZyns9ynkJ',
       // this has to be https
       recordingsUrl: 'https://atlas.cyclomedia.com/Recordings/wfs'
     },

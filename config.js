@@ -3,7 +3,7 @@
 
   return {
     geocoder: {
-      // forward: {
+      
         // direction: 'forward',
       url: function (input) {
         var inputEncoded = encodeURIComponent(input);

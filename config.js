@@ -266,9 +266,9 @@
     },
     cyclomedia: {
       host: '10.8.101.67',
-      username: 'maps@phila.gov',
+      username: 'PhillyMarathon',
       // there's no way to initialize the streetsmart api without sending this to the client, so it has to be in here.
-      password: 'mapscyc01',
+      password: 'run26.2',
       apiKey: 'GfElS3oRuroNivgtibsZqDkpCvItyPUNuv0NmXglen8puXoJanEVarsZyns9ynkJ',
       // this has to be https
       recordingsUrl: 'https://atlas.cyclomedia.com/Recordings/wfs'

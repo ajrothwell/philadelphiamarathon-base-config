@@ -1,10 +1,8 @@
 (function () {
-  var GATEKEEPER_KEY = '35ae5b7bf8f0ff2613134935ce6b4c1e';
+  var GATEKEEPER_KEY = '60a96cf015063fa0f0e2708bc3c61775';
 
   return {
     geocoder: {
-
-        // direction: 'forward',
       url: function (input) {
         var inputEncoded = encodeURIComponent(input);
         return '//api.phila.gov/ais/v1/search/' + inputEncoded;
@@ -27,10 +25,32 @@
       // }
     },
     map: {
-      center: [39.953338, -75.163471],
+      center: [39.982649, -75.188560],
       minZoom: 11,
-      maxZoom: 20,
-      zoom: 12,
+      maxZoom: 22,
+      zoom: 13,
+      scales: {
+        20: 1128.497220,
+        19: 2256.994440,
+        18: 4513.988880,
+        17: 9027.977761,
+        16: 18055.955520,
+        15: 36111.911040,
+        14: 72223.822090,
+        13: 144447.644200,
+        12: 288895.288400,
+        11: 577790.576700,
+        10: 1155581.153000,
+        9: 2311162.307000,
+        8: 4622324.614000,
+        7: 9244649.227000,
+        6: 18489298.450000,
+        5: 36978596.910000,
+        4: 73957193.820000,
+        3: 147914387.600000,
+        2: 295828775.300000,
+        1: 591657550.500000,
+      },
       basemaps: {
         pwd: {
           url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap/MapServer',
@@ -39,13 +59,6 @@
           ],
           type: 'featuremap'
         },
-        // dor: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/DORBasemap/MapServer',
-        //   tiledLayers: [
-        //     'dorBasemapLabels'
-        //   ],
-        //   type: 'featuremap'
-        // },
         imagery2017: {
           url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2017_3in/MapServer',
           label: '2017',
@@ -57,131 +70,6 @@
           year: 2017,
           attribution: 'Imagery 2017'
         },
-        // imagery2016: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2016_3in/MapServer',
-        //   label: '2016',
-        //   tiledLayers: [
-        //     'imageryBasemapLabels',
-        //     'parcels'
-        //   ],
-        //   type: 'imagery',
-        //   year: 2016,
-        //   attribution: 'Imagery 2016'
-        // },
-        // imagery2015: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2015_3in/MapServer',
-        //   label: '2015',
-        //   tiledLayers: [
-        //     'imageryBasemapLabels',
-        //     'parcels'
-        //   ],
-        //   type: 'imagery',
-        //   year: 2015,
-        //   attribution: 'Imagery 2015'
-        // },
-        // imagery2012: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2012_3in/MapServer',
-        //   label: '2012',
-        //   tiledLayers: [
-        //     'imageryBasemapLabels',
-        //     'parcels'
-        //   ],
-        //   type: 'imagery',
-        //   year: 2012,
-        //   attribution: 'Imagery 2012'
-        // },
-        // imagery2010: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2010_3in/MapServer',
-        //   label: '2010',
-        //   tiledLayers: [
-        //     'imageryBasemapLabels',
-        //     'parcels'
-        //   ],
-        //   type: 'imagery',
-        //   year: 2010,
-        //   attribution: 'Imagery 2010'
-        // },
-        // imagery2008: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2008_3in/MapServer',
-        //   label: '2008',
-        //   tiledLayers: [
-        //     'imageryBasemapLabels',
-        //     'parcels'
-        //   ],
-        //   type: 'imagery',
-        //   year: 2008,
-        //   attribution: 'Imagery 2008'
-        // },
-        // imagery2004: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_2004_6in/MapServer',
-        //   label: '2004',
-        //   tiledLayers: [
-        //     'imageryBasemapLabels',
-        //     'parcels'
-        //   ],
-        //   type: 'imagery',
-        //   year: 2004,
-        //   attribution: 'Imagery 2004'
-        // },
-        // imagery1996: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_1996_6in/MapServer',
-        //   label: '1996',
-        //   tiledLayers: [
-        //     'imageryBasemapLabels',
-        //     'parcels'
-        //   ],
-        //   type: 'imagery',
-        //   year: 1996,
-        //   attribution: 'Imagery 1996'
-        // },
-        // historic1962: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricLandUse_1962/MapServer',
-        //   label: '1962',
-        //   tiledLayers: [],
-        //   type: 'historic',
-        //   year: 1962,
-        //   attribution: 'Historic Land Use 1962'
-        // },
-        // historic1942: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricLandUse_1942/MapServer',
-        //   label: '1942',
-        //   tiledLayers: [],
-        //   type: 'historic',
-        //   year: 1942,
-        //   attribution: 'Historic Land Use 1942'
-        // },
-        // historic1910: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricBromleyAtlas_1910/MapServer',
-        //   label: '1910',
-        //   tiledLayers: [],
-        //   type: 'historic',
-        //   year: 1910,
-        //   attribution: 'Historic Bromley Atlas 1910'
-        // },
-        // historic1895: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricBromleyAtlas_1895/MapServer',
-        //   label: '1895',
-        //   tiledLayers: [],
-        //   type: 'historic',
-        //   year: 1895,
-        //   attribution: 'Historic Bromley Atlas 1895'
-        // },
-        // historic1875: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricGMHopkinsAtlas_1875/MapServer',
-        //   label: '1875',
-        //   tiledLayers: [],
-        //   type: 'historic',
-        //   year: 1875,
-        //   attribution: 'Historic G.M. Hopkins Atlas 1875'
-        // },
-        // historic1860: {
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/HistoricHexamerLocherAtlas_1860/MapServer',
-        //   label: '1860',
-        //   tiledLayers: [],
-        //   type: 'historic',
-        //   year: 1860,
-        //   attribution: 'Historic Hexamer Locher Atlas 1860'
-        // },
       },
       imageryTypes: {
         imagery: {
@@ -197,11 +85,6 @@
           url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap_Labels/MapServer',
           zIndex: '3',
         },
-        // dorBasemapLabels: {
-        //   // type: 'labels',
-        //   url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/DORBasemap_Labels_Test2/MapServer',
-        //   zIndex: '3',
-        // },
         imageryBasemapLabels: {
           url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityImagery_Labels/MapServer',
           zIndex: '3',
@@ -211,6 +94,16 @@
         parcels: {
           url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/ParcleTile/MapServer',
           zIndex: '2',
+        },
+        fullMarathon: {
+          url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/Full_Marathon/MapServer',
+          zIndex: '3',
+          attribution: 'overwrite',
+        },
+        halfMarathon: {
+          url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/Half_Marathon/MapServer',
+          zIndex: '3',
+          attribution: 'overwrite',
         },
       },
       dynamicMapLayers: {

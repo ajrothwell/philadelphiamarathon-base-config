@@ -92,7 +92,7 @@
           // attribution: ' ',
         },
         parcels: {
-          url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/ParcleTile/MapServer',
+          url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PWDParcel_ImageryOverlay/MapServer/',
           zIndex: '2',
         },
         fullMarathon: {
@@ -117,19 +117,8 @@
         //   url: '//gis.phila.gov/arcgis/rest/services/PhilaGov/ZoningMap/MapServer',
         //   opacity: 1.0
         // },
-        // regmaps: {
-        //   url: '//gis.phila.gov/arcgis/rest/services/DOR_ParcelExplorer/rtt_basemap/MapServer/',
-        //   opacity: 0.5
-        // },
-        // 311: {
-        //   url: '//192.168.103.144:6080/arcgis/rest/services/GSG/GIS311_365_nosym/MapServer/',
-        //   opacity: 1.0
-        // },
       },
       featureLayers: {
-        // dorParcels: {
-        //   url: '//gis.phila.gov/arcgis/rest/services/DOR_ParcelExplorer/rtt_basemap/MapServer/24',
-        // },
         // pwdParcels: {
         //   url: '//gis.phila.gov/arcgis/rest/services/Water/pv_data_geodb2/MapServer/0',
         // },
@@ -150,14 +139,6 @@
         //   minZoom: 16
         // }
       },
-      tools: {
-        buffer: {
-          url: '//192.168.103.143:6080/arcgis/rest/services/Utilities/Geometry/GeometryServer/buffer'
-        },
-        distance: {
-          url: '//192.168.103.143:6080/arcgis/rest/services/Utilities/Geometry/GeometryServer/distance'
-        }
-      }
     },
     cyclomedia: {
       host: '10.8.101.67',

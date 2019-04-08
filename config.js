@@ -11,18 +11,6 @@
         gatekeeperKey: GATEKEEPER_KEY,
         include_units: true
       }
-      // },
-      // reverse: {
-      //   direction: 'reverse',
-      //   // TODO uri encode
-      //   url: function (input) {
-      //     return '//api.phila.gov/ais/v1/reverse_geocode/' + input;
-      //   },
-      //   params: {
-      //     gatekeeperKey: GATEKEEPER_KEY,
-      //     include_units: true
-      //   }
-      // }
     },
     map: {
       center: [39.982649, -75.188560],
@@ -107,37 +95,6 @@
           pane: 'marathon',
           attribution: 'overwrite',
         },
-      },
-      dynamicMapLayers: {
-        // stormwater: {
-        //   url: '//gis.phila.gov/arcgis/rest/services/Water/pv_data/MapServer',
-        //   opacity: 1.0
-        // },
-        // zoning: {
-        //   url: '//gis.phila.gov/arcgis/rest/services/PhilaGov/ZoningMap/MapServer',
-        //   opacity: 1.0
-        // },
-      },
-      featureLayers: {
-        // pwdParcels: {
-        //   url: '//gis.phila.gov/arcgis/rest/services/Water/pv_data_geodb2/MapServer/0',
-        // },
-        // marathon: {
-        //   url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/FullMarathon/FeatureServer/0',
-        //   color: 'orange',
-        //   fillColor: 'orange',
-        //   fillOpacity: 0.5,
-        //   weight: 1,
-        //   minZoom: 16
-        // },
-        // vacantBuilding: {
-        //   url: '//services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Vacant_Indicators_Bldg/FeatureServer/0',
-        //   color: 'purple',
-        //   fillColor: 'purple',
-        //   fillOpacity: 0.5,
-        //   weight: 1,
-        //   minZoom: 16
-        // }
       },
     },
   };

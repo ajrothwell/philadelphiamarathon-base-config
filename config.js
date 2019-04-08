@@ -140,15 +140,5 @@
         // }
       },
     },
-    cyclomedia: {
-      host: '10.8.101.67',
-      username: 'PhillyMarathon',
-      // there's no way to initialize the streetsmart api without sending this to the client, so it has to be in here.
-      password: 'run26.2',
-      apiKey: 'SzAVCX4Baj0ZiHwRGDMxWrQ1GTAtGbMFu3UF-jEZST4BKjg5G_EB-Xo9WH0liHAt ',
-      // apiKey: 'GfElS3oRuroNivgtibsZqDkpCvItyPUNuv0NmXglen8puXoJanEVarsZyns9ynkJ',
-      // this has to be https
-      recordingsUrl: 'https://atlas.cyclomedia.com/Recordings/wfs'
-    },
   };
 })();

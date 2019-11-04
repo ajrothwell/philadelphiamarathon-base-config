@@ -84,13 +84,15 @@
           zIndex: '2',
         },
         fullMarathon: {
-          url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/Full_Marathon/MapServer',
+          // url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/Full_Marathon/MapServer',
+          url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/Full_Marathon_2019/MapServer',
           zIndex: '1000',
           pane: 'marathon',
           attribution: 'overwrite',
         },
         halfMarathon: {
-          url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/Half_Marathon/MapServer',
+          // url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/Half_Marathon/MapServer',
+          url: '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/Half_Marathon_2019/MapServer',
           zIndex: '1000',
           pane: 'marathon',
           attribution: 'overwrite',

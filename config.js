@@ -7,7 +7,7 @@
           return '//api.phila.gov/ais/v1/search/' + inputEncoded;
         },
         params: {
-          gatekeeperKey: GATEKEEPER_KEY,
+          gatekeeperKey: opts.gatekeeperKey,
           include_units: true
         }
       },
